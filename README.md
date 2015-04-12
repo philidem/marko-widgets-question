@@ -5,7 +5,7 @@ $ npm install
 $ node src/server.js
 ```
 
-Two identical widgets (`good-widget` and `bad-widget`) with the only difference in widget file name:
+Two identical widgets (`good-widget` and `bad-widget`) with the only difference in widget's file name:
 
 ```js
 src/good-widget/index.js
