@@ -1,4 +1,4 @@
-# Marko Widget Question
+# Marko Widgets Question
 
 ```sh
 $ npm install
