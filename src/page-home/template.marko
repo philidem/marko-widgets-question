@@ -1,0 +1,25 @@
+<optimizer-page package-path="./optimizer.json"/>
+
+<layout-use template="src/layout-base/template.marko">
+
+    <layout-put into="title">Home page</layout-put>
+
+    <layout-put into="body">
+
+        <br>
+        <b>Good widget:</b>
+        <div>
+            <!-- Will output "Hello Lasso!", which is good -->
+            <good-widget name="Optimizer"/>
+        </div>
+
+        <br>
+        <b>Bad widget:</b>
+        <div>
+            <!-- Will output "Hello Optimizer!", which is bad -->
+            <bad-widget name="Optimizer"/>
+        </div>
+
+    </layout-put>
+
+</layout-use>

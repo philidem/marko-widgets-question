@@ -1,0 +1,7 @@
+{
+  "dependencies": [
+    "src/layout-base/optimizer.json",
+    "src/good-widget/optimizer.json",
+    "src/bad-widget/optimizer.json"
+  ]
+}
