@@ -4,8 +4,8 @@
 require('app-module-path').addPath(__dirname + '/..');
 
 // Configure the RaptorJS Optimizer
-require('optimizer').configure({
-    plugins: [ 'optimizer-marko', 'optimizer-less' ],
+require('lasso').configure({
+    plugins: [ 'lasso-marko', 'lasso-less' ],
     resolveCssUrls: true,
     projectRoot : __dirname + '/..',
     // DON'T BUNDLE DURING DEVELOPMENT
@@ -20,7 +20,7 @@ require('optimizer').configure({
         {
             name : "common",
             dependencies : [
-                "./src/layout-base/optimizer.json"
+                "./src/layout-base/browser.json"
             ]
         }
     ]

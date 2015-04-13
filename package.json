@@ -6,10 +6,10 @@
   "dependencies": {
     "app-module-path": "1.0.1",
     "express": "4.12.3",
-    "optimizer": "1.8.2",
-    "optimizer-less": "2.0.3",
-    "optimizer-marko": "2.0.1",
-    "marko": "2.2.0",
+    "lasso": "^1.8.4",
+    "lasso-less": "^2.0.6",
+    "lasso-marko": "^2.0.2",
+    "marko": "^2.3.0",
     "marko-widgets": "4.0.0-rc4",
     "serve-static": "1.9.2"
   }
