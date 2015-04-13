@@ -1,5 +1,10 @@
 var selected = false;
 
+// From @philidem:
+// Since this code is in "widget.js" it is only ran in the browser.
+// If "bad-widget" is only rendered on the server then getTemplateData
+// will never be called because it will only be part of the client-side
+// render pipeline.
 module.exports = require('marko-widgets').defineWidget({
     template: require.resolve('./template.marko'),
 

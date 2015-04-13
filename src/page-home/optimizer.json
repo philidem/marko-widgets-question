@@ -1,7 +1,8 @@
 {
   "dependencies": [
-    "src/layout-base/optimizer.json",
-    "src/good-widget/optimizer.json",
-    "src/bad-widget/optimizer.json"
+    "require: marko-widgets",
+    "require: src/good-widget",
+    "require: src/bad-widget/widget",
+    "require-run: ./demo.js"
   ]
 }

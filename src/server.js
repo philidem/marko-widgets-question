@@ -8,9 +8,14 @@ require('optimizer').configure({
     plugins: [ 'optimizer-marko', 'optimizer-less' ],
     resolveCssUrls: true,
     projectRoot : __dirname + '/..',
-    bundlingEnabled: true,
+    // DON'T BUNDLE DURING DEVELOPMENT
+    bundlingEnabled: false,
+    // DON'T GENERATE FINGERPRINTS DURING DEVELOPMENT
+    fingerprintsEnabled: false,
     outputDir: "static",  // Write all bundles into the "static" directory
     "urlPrefix": "/static",
+
+    // NOTE: The bundles section is only relevant when bundlingEnabled is true
     bundles : [
         {
             name : "common",
